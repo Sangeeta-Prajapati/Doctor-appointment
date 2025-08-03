@@ -9,9 +9,27 @@ connectDB();
 const app = express();
 
 // ✅ CORS Configuration
+// app.use(
+//   cors({
+//     origin: "https://doctor-appointment-lake-one.vercel.app ", 
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     credentials: true,
+//   })
+// );
+
+
 app.use(
   cors({
-    origin: "https://doctor-appointment-lake-one.vercel.app ", 
+    origin: (origin, callback) => {
+      const allowedOrigins = [
+        "https://doctor-appointment-lake-one.vercel.app",
+        "http://localhost:3000"      ];
+      if (!origin || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
