@@ -35,7 +35,7 @@ const app = express();
 // ✅ CORS Configuration
 app.use(
   cors({
-    origin: "https://doctor-appointment-frontend-fxx9.onrender.com",
+    origin: "https://doctor-appointment-frontend-fxx9.onrender.com/api/appointments",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
