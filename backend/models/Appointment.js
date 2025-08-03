@@ -17,6 +17,8 @@ const appointmentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
+  phone: { type: String, required: true }, 
+  
   datetime: {
     type: Date,
     required: true,

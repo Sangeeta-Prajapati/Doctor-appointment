@@ -2,10 +2,12 @@ const Appointment = require("../models/Appointment");
  
 // Create a new appointment
 exports.createAppointment = async (req, res) => {
+  
   try {
-    const { doctorId, doctorName, patientName, patientEmail, datetime } = req.body;
+    // console.log("Incoming appointment request:", req.body);
+    const { doctorId, doctorName, patientName, patientEmail,phone, datetime } = req.body;
  
-    if (!doctorId || !doctorName || !patientName || !patientEmail || !datetime) {
+    if (!doctorId || !doctorName || !patientName || !patientEmail || !phone || !datetime) {
       return res.status(400).json({ message: "All fields are required" });
     }
  
@@ -14,7 +16,9 @@ exports.createAppointment = async (req, res) => {
       doctorName,
       patientName,
       patientEmail,
+      phone,
       datetime,
+      status: "Pending",
     });
  
     const savedAppointment = await newAppointment.save();
