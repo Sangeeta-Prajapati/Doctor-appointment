@@ -1,0 +1,141 @@
+ 
+
+
+
+[
+  {
+    "id": 1,
+    "name": "Dr. Sarah Johnson",
+    "specialization": "Cardiologist",
+    "image": "https://images.unsplash.com/photo-1574637428550-018f1f368d03?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDd8fGZyZWUlMjBkb2N0b3JzJTIwcGhvdG9zJTIwY2FyZGlvbG9naXN0JTIwbGFkeXxlbnwwfHwwfHx8MA%3D%3D",
+    "availability": "Available Mon-Fri 9AM-5PM",
+    "status": "Available",
+    "about": "Experienced cardiologist with 10+ years in heart care and surgery."
+  },
+  {
+    "id": 2,
+    "name": "Dr. Michael Lee",
+    "specialization": "Dermatologist",
+    "image": "https://images.unsplash.com/photo-1607746882042-944635dfe10e",
+    "availability": "Available Tue-Sat 10AM-4PM",
+    "status": "Available",
+    "about": "Specialist in skincare and dermatological treatments."
+  },
+  {
+    "id": 3,
+    "name": "Dr. Emily Carter",
+    "specialization": "Neurologist",
+    "image": "https://images.unsplash.com/photo-1594824476967-48c8b964273f",
+    "availability": "Available Mon-Thu 11AM-3PM",
+    "status": "Unavailable",
+    "about": "Focused on treating brain and nervous system disorders."
+  },
+  {
+    "id": 4,
+    "name": "Dr. Priya Singh",
+    "specialization": "Pediatrician",
+    "image": "https://images.unsplash.com/photo-1662848586769-314289d4c8b7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "availability": "Available Mon-Fri 8AM-2PM",
+    "status": "Available",
+    "about": "Expert in child healthcare and immunizations with 8 years of experience."
+  },
+  {
+    "id": 5,
+    "name": "Dr. Ahmed Hassan",
+    "specialization": "Orthopedic Surgeon",
+    "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61",
+    "availability": "Available Wed-Sun 12PM-6PM",
+    "status": "Available",
+    "about": "Specializes in bone and joint surgeries, sports injuries, and rehabilitation."
+  },
+  {
+    "id": 6,
+    "name": "Dr. Laura Kim",
+    "specialization": "Psychiatrist",
+    "image": "https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91",
+    "availability": "Available Tue-Fri 10AM-5PM",
+    "status": "Unavailable",
+    "about": "Experienced in mental health care, counseling, and therapy for all ages."
+  },
+  {
+    "id": 7,
+    "name": "Dr. John Smith",
+    "specialization": "General Physician",
+    "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "availability": "Available Mon-Sat 9AM-6PM",
+    "status": "Available",
+    "about": "General health checkups and preventive medicine specialist."
+  },
+  {
+    "id": 8,
+    "name": "Dr. Maria Rodriguez",
+    "specialization": "Gynecologist",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+    "availability": "Available Mon-Fri 10AM-4PM",
+    "status": "Available",
+    "about": "Women's health, pregnancy, and reproductive system expert."
+  },
+  {
+    "id": 9,
+    "name": "Dr. David Brown",
+    "specialization": "Ophthalmologist",
+    "image": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+    "availability": "Available Tue-Sat 11AM-5PM",
+    "status": "Available",
+    "about": "Eye care, vision correction, and eye surgery specialist."
+  },
+  {
+    "id": 10,
+    "name": "Dr. Angela White",
+    "specialization": "Dentist",
+    "image": "https://images.unsplash.com/photo-1662837625427-970713d74aa6?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "availability": "Available Mon-Fri 9AM-3PM",
+    "status": "Unavailable",
+    "about": "Dental care, cosmetic dentistry, and oral surgery."
+  },
+  {
+    "id": 11,
+    "name": "Dr. Samuel Green",
+    "specialization": "ENT Specialist",
+    "image": "https://media.istockphoto.com/id/1476716757/photo/asian-chinese-female-paediatrician-examining-young-boy-ear-with-otoscope-in-her-clinic.webp?a=1&b=1&s=612x612&w=0&k=20&c=AuSvvrILa4_QXfZssWefr6O8P7yosqnKLGQPclw5Pro=",
+    "availability": "Available Wed-Sun 10AM-6PM",
+    "status": "Available",
+    "about": "Ear, nose, and throat disorders and surgeries."
+  },
+  {
+    "id": 12,
+    "name": "Dr. Olivia Martinez",
+    "specialization": "Endocrinologist",
+    "image": "https://plus.unsplash.com/premium_photo-1661722577924-5493be567c61?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8ZnJlZSUyMGRvY3RvcnMlMjBwaG90b3MlMjBFbmRvY3Jpbm9sb2dpc3R8ZW58MHx8MHx8fDA%3D",
+    "availability": "Available Mon-Thu 8AM-2PM",
+    "status": "Available",
+    "about": "Hormonal disorders, diabetes, and thyroid specialist."
+  },
+  {
+    "id": 13,
+    "name": "Dr. William Turner",
+    "specialization": "Pulmonologist",
+    "image": "https://images.unsplash.com/photo-1664902273556-600a6e50beda?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZyZWUlMjBkb2N0b3JzJTIwcGhvdG9zJTIwUHVsbW9ub2xvZ2lzdHxlbnwwfHwwfHx8MA%3D%3D",
+    "availability": "Available Tue-Fri 12PM-7PM",
+    "status": "Available",
+    "about": "Lung diseases, asthma, and respiratory care."
+  },
+  {
+    "id": 14,
+    "name": "Dr. Sophia Patel",
+    "specialization": "Oncologist",
+    "image": "https://images.unsplash.com/photo-1617309084369-a6d5a39537f0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZnJlZSUyMGRvY3RvcnMlMjBwaG90b3MlMjBPbmNvbG9naXN0fGVufDB8fDB8fHww",
+    "availability": "Available Mon-Fri 10AM-5PM",
+    "status": "Unavailable",
+    "about": "Cancer diagnosis, treatment, and research."
+  },
+  {
+    "id": 15,
+    "name": "Dr. Kevin Adams",
+    "specialization": "Urologist",
+    "image": "https://images.unsplash.com/photo-1582750433449-648ed127bb54?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "availability": "Available Mon-Sat 9AM-1PM",
+    "status": "Available",
+       "about": "Urinary tract and male reproductive health specialist."
+  }
+]
