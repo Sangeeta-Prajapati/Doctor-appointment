@@ -4,7 +4,7 @@ const Appointment = require("../models/Appointment");
 exports.createAppointment = async (req, res) => {
   
   try {
-    // console.log("Incoming appointment request:", req.body);
+    console.log("REQ.BODY", req.body);
     const { doctorId, doctorName, patientName, patientEmail,phone, datetime } = req.body;
  
     if (!doctorId || !doctorName || !patientName || !patientEmail || !phone || !datetime) {
