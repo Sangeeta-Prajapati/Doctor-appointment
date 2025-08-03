@@ -96,7 +96,7 @@ function AppointmentForm({ doctor, onClose }) {
       };
 
       // Send to backend
-      const res = await fetch("https://doctor-appointment-backend-52qy.onrender.com", {
+      const res = await fetch("https://doctor-appointment-backend-52qy.onrender.com/api/appointments", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(newAppointment),
